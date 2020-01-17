@@ -1,22 +1,28 @@
 {
   "monitor": {
-    "interval": 5000,
-    "numberOfBuilds": 12,
-    "latestBuildOnly": false,
-    "sortOrder": "date",
+    "interval": 30000,
+    "numberOfBuilds": 10,
+    "sortOrder": "project",
+    "errorFirst": false,
     "debug": true
   },
   "services": [
     {
-      "name": "Travis",
+      "name": "BitbucketPipelines",
       "configuration": {
-        "slug": "marcells/bloggy"
+        "apiKey":"bpFsWJsr9N7sHyd3uY5G",
+        "username":"samlarsen-tide",
+        "teamname":"tideaccount",
+        "slug": "backend-api-tests"
       }
     },
     {
-      "name": "Travis",
+      "name": "BitbucketPipelines",
       "configuration": {
-        "slug": "marcells/node-build-monitor"
+        "apiKey":"bpFsWJsr9N7sHyd3uY5G",
+        "username":"samlarsen-tide",
+        "teamname":"tideaccount",
+        "slug": "mobile-automation"
       }
     }
   ]

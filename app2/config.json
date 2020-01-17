@@ -1,0 +1,56 @@
+{
+  "monitor": {
+    "interval": 30000,
+    "numberOfBuilds": 10,
+    "sortOrder": "project",
+    "errorFirst": false,
+    "debug": true
+  },
+  "services": [
+    {
+      "name": "BitbucketPipelines",
+      "configuration": {
+        "apiKey":"bpFsWJsr9N7sHyd3uY5G",
+        "username":"samlarsen-tide",
+        "teamname":"tideaccount",
+        "slug": "statement-service"
+      }
+    },
+    {
+      "name": "BitbucketPipelines",
+      "configuration": {
+        "apiKey":"bpFsWJsr9N7sHyd3uY5G",
+        "username":"samlarsen-tide",
+        "teamname":"tideaccount",
+        "slug": "direct-debit-service"
+      }
+    },
+    {
+      "name": "BitbucketPipelines",
+      "configuration": {
+        "apiKey":"bpFsWJsr9N7sHyd3uY5G",
+        "username":"samlarsen-tide",
+        "teamname":"tideaccount",
+        "slug": "java-backend"
+      }
+    },
+    {
+      "name": "BitbucketPipelines",
+      "configuration": {
+        "apiKey":"bpFsWJsr9N7sHyd3uY5G",
+        "username":"samlarsen-tide",
+        "teamname":"tideaccount",
+        "slug": "transaction-service"
+      }
+    },
+    {
+      "name": "BitbucketPipelines",
+      "configuration": {
+        "apiKey":"bpFsWJsr9N7sHyd3uY5G",
+        "username":"samlarsen-tide",
+        "teamname":"tideaccount",
+        "slug": "payment-service"
+      }
+    }
+  ]
+}

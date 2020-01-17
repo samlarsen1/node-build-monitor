@@ -1,0 +1,194 @@
+@import url("fonts.css");
+
+html {
+	height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font: 14px 'open_sanscondensed_light', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+.full-size {
+  height: 100%;
+  width: 100%;
+}
+
+.carbon-background {
+  background-image: url(../../images/pattern-b8gl.png);
+  background-repeat: repeat;
+}
+
+.clear {
+  clear: both;
+}
+
+/*******************************
+Overlay
+********************************/
+
+.connection > .overlay-background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.connection > .overlay-icon {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 45%;
+  left: 0px;
+  color: white;
+  text-align: center;
+}
+
+/*******************************
+Options
+********************************/
+
+.options-button {
+  font-size: 40pt;
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  max-height: 80px;
+  position: fixed;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 0.5;
+  overflow-y: auto;
+}
+
+.options-button > a {
+  color: black;
+  text-decoration: none;
+}
+
+.options > .background {
+  background-color: white;
+  opacity: 0.9;
+}
+
+.options > .content {
+  color: black;
+  overflow: auto;
+}
+
+.options > .background,
+.options > .content {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 220px;
+  overflow-y: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.options > .background {
+  height: 100%;
+}
+
+.options > .content {
+  bottom: 30px;
+}
+
+.options > .footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.options > .footer a:link,
+.options > .footer a:visited,
+.options > .footer a:active,
+.options > .footer a:hover {
+  color: black;
+}
+
+
+.options > .content > .header {
+  font-size: 40pt;
+}
+
+.options > .content a:link,
+.options > .content a:visited,
+.options > .content a:active,
+.options > .content a:hover {
+  color: black;
+}
+
+.options > .content > .header a:link,
+.options > .content > .header a:visited,
+.options > .content > .header a:active,
+.options > .content > .header a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.options > .content > .header a:active,
+.options > .content > .header a:hover {
+  color: #303030;
+}
+
+.options > .content > .header > .back {
+  float: right;
+}
+
+.options > .content section {
+  padding-top: 12px;
+}
+
+.options > .content section > h1 {
+  margin-bottom: 5px;
+}
+
+.options > .content section > div.description {
+  padding-bottom: 8px;
+}
+
+.options > .content .checkbox {
+  display: block;
+}
+
+.options > .content .selection-box ul {
+}
+
+.options > .content .selection-box ul > li {
+  float: left;
+  display: table;
+  list-style: none;
+  margin: 5px;
+}
+
+.options > .content .selection-box ul > li > a {
+  display: table-cell;
+  min-width: 80px;
+  height: 50px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid black;
+}
+
+.options > .content .selection-box ul > li > a:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+.options > .content .selection-box ul > li.selected > a {
+  background-color: #303030;
+  color: white;
+}
